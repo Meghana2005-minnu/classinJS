@@ -18,7 +18,23 @@
         let obj = new Animal();
         console.log(obj.type); 
        obj.sound();
-       
+
+      //constructor
+      class Dog{
+        constructor(){
+            this.breed="Golden Retriever";
+
+        }
+
+        sound(){
+            console.log("Woof!");
+        }
+      }
+
+      const d1 = new Dog();
+      console.log(d1.breed);
+        d1.sound();
+        
        
 
 
