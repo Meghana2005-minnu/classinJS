@@ -34,8 +34,20 @@
       const d1 = new Dog();
       console.log(d1.breed);
         d1.sound();
+
+        //constructor with parameters
+        class Bike{
+            constructor(model,year){
+                this.model=model;
+                this.year=year;
+            }
+            display(){
+                console.log(`${this.model} was launched in the year ${this.year}`);
+            }
+        }
+
+        new Bike("Honda", 2021).display();
         
-       
 
 
         
